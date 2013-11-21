@@ -10,7 +10,6 @@ test_file_path = "/Users/shibatakeisuke/test.txt"
 home_path = os.environ['HOME']
 out_list_html_path = home_path + "/" + out_list_html_name
 filelist = []
-mach_list = {".mp3",".wmv",".aac",".mkv",".iso",".mp4",".avi"}
 
 def directory_check():
 	cd = os.getcwd()
